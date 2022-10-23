@@ -1,0 +1,125 @@
+    PID CMD
+1:/lib/systemd/systemd --system --deserialize 22
+2:[kthreadd]
+3:[rcu_gp]
+4:[rcu_par_gp]
+5:[netns]
+7:[kworker/0:0H-events_highpri]
+10:[mm_percpu_wq]
+11:[rcu_tasks_rude_]
+12:[rcu_tasks_trace]
+13:[ksoftirqd/0]
+14:[rcu_sched]
+15:[migration/0]
+16:[idle_inject/0]
+17:[cpuhp/0]
+18:[kdevtmpfs]
+19:[inet_frag_wq]
+20:[kauditd]
+21:[khungtaskd]
+22:[oom_reaper]
+23:[writeback]
+24:[kcompactd0]
+25:[ksmd]
+71:[kintegrityd]
+72:[kblockd]
+73:[blkcg_punt_bio]
+74:[tpm_dev_wq]
+75:[ata_sff]
+76:[md]
+77:[edac-poller]
+78:[devfreq_wq]
+79:[watchdogd]
+81:[kworker/0:1H-kblockd]
+83:[kswapd0]
+84:[ecryptfs-kthrea]
+86:[kthrotld]
+87:[acpi_thermal_pm]
+89:[scsi_eh_0]
+90:[scsi_tmf_0]
+91:[scsi_eh_1]
+92:[scsi_tmf_1]
+94:[vfio-irqfd-clea]
+95:[mld]
+96:[ipv6_addrconf]
+105:[kstrp]
+108:[zswap-shrink]
+109:[kworker/u3:0]
+114:[charger_manager]
+150:[scsi_eh_2]
+151:[cryptd]
+152:[scsi_tmf_2]
+216:[raid5wq]
+260:[jbd2/vda1-8]
+261:[ext4-rsv-conver]
+357:[ipmi-msghandler]
+369:[kaluad]
+371:[kmpath_rdacd]
+373:[kmpathd]
+374:[kmpath_handlerd]
+683:/usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+692:/lib/systemd/systemd-logind
+765:/sbin/agetty -o -p -- \u --noclear tty1 linux
+774:/usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+13790:/lib/systemd/systemd-journald
+13794:/usr/libexec/packagekitd
+13796:/sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 ttyS0 vt220
+13802:/lib/systemd/systemd-udevd
+13803:/usr/libexec/udisks2/udisksd
+13811:/usr/libexec/polkitd --no-debug
+13812:/sbin/multipathd -d -s
+13821:sshd: /usr/sbin/sshd -D [listener] 1 of 10-100 startups
+13822:/usr/sbin/ModemManager
+571379:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=40551
+571711:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=37689
+590750:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=33783
+1956275:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=34303
+1956574:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=48897
+1956602:[chrome] <defunct>
+2005502:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=52707
+2005642:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=60495
+2539111:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=41587
+2562015:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=53535
+2564186:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=50737
+2566527:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=36681
+2567001:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=41327
+2567003:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=58487
+2567571:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=36845
+2572228:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=59471
+2572339:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=43815
+2579121:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=58345
+2581436:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=33793
+2581771:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=54747
+2581919:/usr/sbin/CRON -f -P
+2581933:/bin/sh -c python3 /root/test.py
+2581935:python3 /root/test.py
+2582286:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=43183
+2583918:/usr/sbin/CRON -f -P
+2583919:/bin/sh -c python3 /root/test.py
+2583920:python3 /root/test.py
+2583946:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=51727
+2584414:/usr/sbin/CRON -f -P
+2584415:/bin/sh -c python3 /root/test.py
+2584416:python3 /root/test.py
+2584441:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=56599
+2589811:/usr/sbin/CRON -f -P
+2589812:/bin/sh -c python3 /root/test.py
+2589813:python3 /root/test.py
+2589838:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=37465
+2590107:/root/.wdm/drivers/chromedriver/linux64/104.0.5112/chromedriver --port=40409
+2797397:/opt/digitalocean/bin/droplet-agent
+2845042:/usr/sbin/cron -f -P
+2845151:/usr/lib/snapd/snapd
+2934060:[kworker/0:0-cgroup_destroy]
+3000122:[kworker/0:1-events]
+3000236:/lib/systemd/systemd --user
+3000238:(sd-pam)
+3044190:sshd: root@pts/0
+3044240:-bash
+3077270:[kworker/u2:2-ext4-rsv-conversion]
+3079403:[kworker/u2:1-events_power_efficient]
+3079404:[kworker/u2:3-events_unbound]
+3079443:sshd: [accepted]
+3079445:bash 1.sh
+3079446:ps -U root -o pid,cmd
+3079447:sed -r s/\s*([0-9]+)\s(.+)$/\1:\2/
